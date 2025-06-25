@@ -23,6 +23,8 @@ $docker compose ps
   * http://localhost:3000
     * user=admin
     * pass=admin
+* List of grafana dashboard
+  * https://grafana.com/grafana/dashboards/?search=Docker+monitoring
 
 ## Docker logging with Loki
 ```
@@ -60,3 +62,6 @@ $docker compose ps
 $sudo systemctl restart docker
 $sudo systemctl status docker
 ```
+
+### Open grafana dashboard
+* 
