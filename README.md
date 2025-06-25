@@ -37,7 +37,9 @@ ID             NAME          DESCRIPTION           ENABLED
 
 ### Start Loki
 ```
+$docker compose down
 $docker compose up -d loki
+$docker compose up -d grafana
 $docker compose ps
 ```
 
@@ -64,4 +66,6 @@ $sudo systemctl status docker
 ```
 
 ### Open grafana dashboard
-* 
+* http://localhost:3000
+  * user=admin
+  * pass=admin
