@@ -14,7 +14,7 @@ services:
       - 9100:9100
 
   cadvisor:
-    image: google/cadvisor:latest
+    image: gcr.io/cadvisor/cadvisor:latest
     container_name: monitoring_cadvisor
     volumes:
       - /:/rootfs:ro
